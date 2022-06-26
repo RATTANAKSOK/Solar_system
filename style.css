@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 90%;
+    background-color: antiquewhite;
+    margin: 0 auto;
+}
+
+.nav {
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav ul li {
+    display: inline-block;
+    padding: 12px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    border-radius: 10px;
+    border: 2px solid orangered;
+}
+
+.nav ul li a:hover {
+    background-color: brown;
+}
+
+.banner {
+    height: 250px;
+    background-image: url('img/banner.jpeg');
+    background-size: cover;
+}
+
+.banner h1 {
+    text-align: center;
+    color: aqua;
+    font-size: 40px;
+
+    text-shadow: 0 0 5px aquamarine;
+}
+
+.s_title {
+    color: blue;
+    text-align: center;
+    border-bottom: 5px double blue;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 10px;
+
+    text-shadow: 0 0 5px black;
+}
+
+.inner {
+    background-color: aliceblue;
+}
+
+.inner p {
+    color: blue;
+}
+
+.card {
+    width: 250px;
+    height: 450px;
+    margin: 0 auto;
+    border: 2px solid blue;
+    border-radius: 15px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.card ul {
+    padding-left: 15px;
+}
+
+.outer {
+    background-color: aliceblue;
+}
+
+.outer p {
+    color: blue;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table tr td img {
+    width: 200px;
+}
+
+th , td {
+    border: 2px solid darkgreen;
+}
+
+th {
+    height: 50px;
+    background-color: teal;
+}
+
+.footer {
+    text-align: center;
+    background-color: cornflowerblue;
+    font-size: xx-large;
+}
